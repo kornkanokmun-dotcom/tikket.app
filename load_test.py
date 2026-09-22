@@ -1,8 +1,8 @@
 import threading
 import requests
 
-URL = "http://localhost:9912/book/1"
-NUM_USERS = 100  # จำลองคน 20 คนกดพร้อมกัน
+URL = "http://localhost:5001/book/1"
+NUM_USERS = 50 # จำลองคน 20 คนกดพร้อมกัน
 
 results = []
 
